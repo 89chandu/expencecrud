@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="userForm">
+        <div>
+          <label for="name">EXPENSE:</label>
+          <input type="number" id="name" required>
+        </div>
+        <div>
+          <label for="text">CATEGORY:</label>
+          <input type="text" id="email" required>
+        </div>
+        <div>
+          <select id="phone">
+            <option value="Movie">Movie</option>
+            <option value="Games">Games</option>
+            <option value="Hotels">Hotels</option>
+          </select>
+          
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      
+      <div id="userDetails">
+      </div>
+     
+      
+    <script src="crud.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
